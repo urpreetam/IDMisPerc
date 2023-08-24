@@ -1,0 +1,14 @@
+Create a program using Python which calculates the mismatch percentage for any sample I-card based on the following parameters :
+
+1)) Shoulder/Neck area must be visible in the I-card's Photo along with full head part (In case you're not able to detect shoulder, hair then only detect face and that's it)
+
+2)) The left alignment of "Address, Date of Birth, Expiration Date" must be the same (In case you're not able to detect the same alignment in terms of distance, just detect whether they're left aligned or not, that's it)
+
+3)) "Blood type, Eyes Color, Agency Code" must be center aligned
+
+If any one out of these 9 parameters is missing, then the mismatch percentage= 11.11%. If 2 parameters are missing in the testing I-card, then the mismatch percentage= 22.22% and likewise
+ 
+Working example :
+A) If I-card "X" is tested and all above parameters satisfied then mismatch % for "x" is 0
+B) If I-card "Y" is tested and only one parameter is not the same, let's say Blood type is left aligned rather than center, but all other parameters are being satisfied then mismatch percentage for "y" = 11.11%
+C) If one tests a blank page "z" instead of I-card, where obviously all parameters are missing then mismatch percentage for "z" = 100%

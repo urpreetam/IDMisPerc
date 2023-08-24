@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Processing Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Processing Form</h1>
+        <form id="upload-form" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="fileInput">Select a JPG or jpeg or png file:</label>
+                <input type="file" id="fileInput" name="fileInput" accept=".jpg, .jpeg, .png">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

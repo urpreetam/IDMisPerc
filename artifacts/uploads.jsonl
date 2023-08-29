@@ -1,0 +1,11 @@
+{"objectID": "64ecf9a1a8d5fb2bb53dcc4c", "filename": "image1.jpg"}
+{"objectID": "64ecf9a7a8d5fb2bb53dcc4d", "filename": "image2.jpg"}
+{"objectID": "64ecf9aba8d5fb2bb53dcc4e", "filename": "image3.jpg"}
+{"objectID": "64ecf9afa8d5fb2bb53dcc4f", "filename": "image4.jpg"}
+{"objectID": "64ecf9b3a8d5fb2bb53dcc50", "filename": "image5.jpg"}
+{"objectID": "64ed03c86a3c0a210b2b3975", "filename": "image7.jpg"}
+{"objectID": "64ed04eb6a3c0a210b2b3976", "filename": "image9.jpg"}
+{"objectID": "64ed0547bb0bf8a2635c7ab4", "filename": "image10.jpg"}
+{"objectID": "64ed88c10fcde4a29f83045d", "filename": "image20.jpg", "output": {"msimatch percentage": 11.11, "face visibility": true, "matched parameters": ["Date of Birth", "Address", "Expiration Date", "Agency Code", "Eyes Color"], "mismatched parameters": ["Blood Type"]}}
+{"objectID": "64ed89461a5eadb7c5c35810", "filename": "image21.jpg", "output": {"msimatch percentage": 33.33, "face visibility": false, "matched parameters": ["Date of Birth", "Address", "Expiration Date", "Blood Type", "Agency Code", "Eyes Color"], "mismatched parameters": []}}
+{"objectID": "64ed8a13711b4905d8bc64fd", "filename": "image1.jpg", "output": {"msimatch percentage": 0.0, "face visibility": true, "matched parameters": ["Date of Birth", "Address", "Expiration Date", "Blood Type", "Agency Code", "Eyes Color"], "mismatched parameters": []}}

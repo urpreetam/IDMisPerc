@@ -12,10 +12,10 @@ form.addEventListener('submit', (event) => {
     })
     .then(response => response.json())
     .then(data => {
-        result.innerHTML = `<p>${data.result}</p>`;
+        result.innerText = JSON.stringify(data.result); // Display the JSONified result string
     })
     .catch(error => {
         console.error(error);
-        result.innerHTML = '<p>An error occurred. Please try again.</p>';
+        result.innerText = 'An error occurred. Please try again.';
     });
 });
